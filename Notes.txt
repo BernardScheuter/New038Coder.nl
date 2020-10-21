@@ -1,0 +1,7 @@
+Colors from dark to light, GameBoy style:
+#081820
+#88c070
+#346856
+#e0f8d0
+
+Font: Litebulb 8Bit
