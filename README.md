@@ -24,3 +24,4 @@ Site structure:
 / Projects / Files (links, code and pictures) 
 / References (LinkedIn and maybe personal story of one of them) 
 #Footer: Social media buttons
+21/10/2020
