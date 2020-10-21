@@ -15,13 +15,15 @@ The main/global goal is to have a functional site with the basic info up and run
 Site structure: 
 
 #Header: Logo etc. 
+
 *Landing page / BLOG on the landing page with site updates etc. 
 =>MENU 
-/ WhoAmI 
-/ Projects 
-/ Projects / Project 
-/ Projects / Project context and story 
-/ Projects / Files (links, code and pictures) 
-/ References (LinkedIn and maybe personal story of one of them) 
+- WhoAmI 
+- Projects 
+- Projects / Project 
+- Projects / Project context and story 
+- Projects / Files (links, code and pictures) 
+- References (LinkedIn and maybe personal story of one of them) 
+
 #Footer: Social media buttons
 21/10/2020
