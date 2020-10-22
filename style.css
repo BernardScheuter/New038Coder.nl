@@ -1,15 +1,16 @@
 @font-face { 
-    font-family: CustomFont;
-    src: url('Early GameBoy.ttf');
+    font-family: HeaderMenuFont;
+    src: url('fonts/Gill\ Sans\ Bold\ Italic.otf');
+    font-family: mainFont;
+    src: url('fonts/Gill\ Sans.otf');
     }
 
 body {
     background-color: #081820;
-    color: #e0f8d0;
   }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
 
 .col-1 {width: 8.33%;}
@@ -26,33 +27,64 @@ body {
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    float: left;
-    /*padding: 5px;*/
-    border: 3px solid #346856;
+    float: inline-end;
   }
 
 .row::after {
-    content: "";
+    content: normal;
     clear: both;
     display: table;
     }
 
 .header {
-    font-family: CustomFont;    
-    background-color: #88c070;
-    padding: 15px;
+    font-family: HeaderMenuFont;
+    text-align: center;
+    background-color: #8f8d90;
+    color: #434183;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*background-color: #88c070;*/
   }
   
 .menu {
     float: left;  
-    font-family: CustomFont;
-    background-color: #88c070;
+    font-family: HeaderMenuFont;
+    background-color: #8f8d90;
+    color: #434183;
     /*overflow: hidden;*/
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-
 .menuitem {
-    color: red;
-} 
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+p {
+  font-family: mainFont;
+  background-color: #8b9a59;
+  border: 3px solid #8f8d90;
+  color: #081820;
+  padding: 3px;
+  float: center;
+}
+
+.blinking-cursor {
+  animation-name: blink;
+  font-family: HeaderMenuFont;
+  font-weight: 100;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: #434183;
+  }
+  50% {
+    color: transparent;
+  }
+}
